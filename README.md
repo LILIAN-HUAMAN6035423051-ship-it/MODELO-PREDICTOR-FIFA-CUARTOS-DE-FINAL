@@ -1,7 +1,7 @@
-# Modelo de Predicción de Clasificación - Copa Mundial 2026
+# Modelo de Predicción de Clasificación cuartos de final - Copa Mundial 2026
 
 ## Descripción del proyecto
-
+Actualizado para la fase de Cuartos de Final del Mundial 2026.
 El presente proyecto desarrolla un modelo de Machine Learning orientado a la predicción de equipos clasificados en partidos de eliminación directa de la Copa Mundial 2026.
 
 El estudio utiliza información histórica de partidos internacionales de fútbol y analiza el rendimiento reciente de cada selección antes de un enfrentamiento.
