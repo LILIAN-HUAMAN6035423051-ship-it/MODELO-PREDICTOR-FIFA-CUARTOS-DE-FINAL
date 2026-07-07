@@ -72,7 +72,8 @@ ANIOS_MUNDIALES = [
     2010,
     2014,
     2018,
-    2022
+    2022,
+    2026
 ]
 
 
@@ -474,11 +475,11 @@ def main():
     print("\n[4] REALIZANDO DIVISIÓN TEMPORAL...")
 
     datos_train = dataset_ml[
-        dataset_ml["mundial"] < 2022
+        dataset_ml["mundial"] < 2026
     ].copy()
 
     datos_test = dataset_ml[
-        dataset_ml["mundial"] == 2022
+        dataset_ml["mundial"] == 2026
     ].copy()
 
     print(
@@ -706,60 +707,34 @@ def main():
 
     cruces_2026 = [
 
-    ("Portugal", "Spain"),
+    ("France", "Morocco"),
 
-    ("United States", "Belgium"),
+    ("Spain", "Belgium"),
 
-    ("Brazil", "Norway"),
+    ("Norway", "England"),
 
-    ("Mexico", "England"),
-
-    ("Argentina", "Egypt"),
-
-    ("Switzerland", "Colombia"),
-
-    ("Canada", "Morocco"),
-
-    ("France", "Paraguay")
+    ("Argentina", "Colombia")
 
 ]
 
     traduccion_equipos = {
 
-    "Portugal": "Portugal",
+     "France": "Francia",
+
+    "Morocco": "Marruecos",
 
     "Spain": "España",
 
-    "United States": "Estados Unidos",
-
     "Belgium": "Bélgica",
 
-    "Brazil": "Brasil",
-
     "Norway": "Noruega",
-
-    "Mexico": "México",
 
     "England": "Inglaterra",
 
     "Argentina": "Argentina",
 
-    "Egypt": "Egipto",
-
-    "Switzerland": "Suiza",
-
-    "Colombia": "Colombia",
-
-    "Canada": "Canadá",
-
-    "Morocco": "Marruecos",
-
-    "France": "Francia",
-
-    "Paraguay": "Paraguay"
-
+    "Colombia": "Colombia"
 }
-
 
     # ========================================================
     # 11. PREDICCIÓN MUNDIAL 2026
@@ -807,7 +782,7 @@ def main():
 
     print("\n")
     print("=" * 100)
-    print("PREDICCIONES OCTAVOS DE FINAL - MUNDIAL 2026")
+    print("PREDICCIONES CUARTOS DE FINAL - MUNDIAL 2026")
     print("=" * 100)
 
 
